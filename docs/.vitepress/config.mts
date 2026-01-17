@@ -42,6 +42,12 @@ export default defineConfig({
                             { text: 'Mermaid 图表渲染', link: '/guide/mermaid' },
                             { text: '输入框折叠', link: '/guide/input-collapse' }
                         ]
+                    },
+                    {
+                        text: '技术',
+                        items: [
+                            { text: '技术概览', link: '/guide/technical-overview' }
+                        ]
                     }
                 ],
                 footer: {
@@ -81,6 +87,12 @@ export default defineConfig({
                             { text: 'Quote Reply', link: '/en/guide/quote-reply' },
                             { text: 'Mermaid Diagram Rendering', link: '/en/guide/mermaid' },
                             { text: 'Input Collapse', link: '/en/guide/input-collapse' }
+                        ]
+                    },
+                    {
+                        text: 'Technical',
+                        items: [
+                            { text: 'Technical Overview', link: '/en/guide/technical-overview' }
                         ]
                     }
                 ],
